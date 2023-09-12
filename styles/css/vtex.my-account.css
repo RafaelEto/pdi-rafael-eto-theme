@@ -1,0 +1,20 @@
+:global(.maeztraio-pdi-rafael-eto-0-x-countdownCard p) {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 0;
+    color: #fff;
+    background: #C48919;
+    text-align: center;
+}
+
+:global(.maeztraio-pdi-rafael-eto-0-x-countdownCard span) {
+    width: 100%;
+    display: block;
+    line-height: 20px;
+    background: #fff;
+    color: #26619C;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 600;
+}

@@ -1,0 +1,94 @@
+.couponCountdown {
+    margin: 50px 0;
+}
+
+.couponCountdownContainer {
+    max-width: 1330px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.couponCountdownWrapper {
+    padding: 24px 30px;
+    background: #4c6b8a;
+    border-radius: 10px;
+}
+
+.countdownCard {
+    border-radius: 8px;
+    overflow: hidden;
+    min-width: 48px;
+    min-height: 48px;
+}
+
+.countdownCard:not(:last-child) {
+    margin-right: 10px;
+}
+
+.couponWrapper {
+    flex: 1;
+    margin-left: 40px;
+}
+
+.couponTitle {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    margin: 0 0 10px;
+}
+
+.couponSubtitle {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    margin: 0;
+    color: #fff;
+}
+
+.couponCode {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    margin: 0 0 12px;
+    color: #fff;
+    text-align: center;
+}
+
+.couponButton {
+    width: 220px;
+    height: 45px;
+    border-radius: 24px;
+    border: none;
+    background: #C48919;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 45px;
+    padding: 0;
+    cursor: pointer;
+    transition: ease-in-out .3s;
+}
+
+.couponButton:hover {
+    background: #F0CB86;
+}
+
+@media (max-width: 991px) {
+    .couponCountdownWrapper {
+        flex-direction: column;
+    }
+    
+    .couponWrapper {
+        margin: 24px 0 0;
+        flex-direction: column;
+    }
+
+    .couponTitle, .couponSubtitle {
+        text-align: center;
+    }
+
+    .couponCode {
+        margin-top: 20px;
+    }
+}
